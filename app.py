@@ -8,7 +8,7 @@ def homepage():
 
 @app.route('/contatos')
 def contatos():
-    return "whatsapp: (11) 99999-9999"
+    return render_template('contatos.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
